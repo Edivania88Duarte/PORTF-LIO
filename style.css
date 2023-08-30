@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-
+/* RESET DA PAGINA */
 *{
     margin: 0;
     padding: 0;
@@ -9,54 +8,30 @@
     text-decoration: none;
     list-style: none;
     font-family:'Poppins', sans-serif;
-    max-width: 1300px;
 }
 
 body {
     overflow: hidden;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .background {
-    background: linear-gradient(rgba(230, 159, 233, 0.5), rgba(248, 0, 194, 0.5));
-    background-image: url(./Assets/Ediii.jpeg);
+    background: linear-gradient(rgba(231, 159, 233, 0.63), rgba(248, 0, 194, 0.5));
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: right ;
     width: 100%;
     height: 135vh;
-    max-width: 1300px;
 }
 
+/* CONFIGURÇÕES DO HEADER */
 header {
     display: flex;
     justify-content: space-around;
-    max-width: 100%;
     align-items: center;
-    text-align: center;
-    padding-top: 1rem;
-   ;
-}
-
-.cabeçalho-link {
-    display: flex;
-    gap: 5px;
-    font-weight: 500;
-    cursor: pointer;
-   
-}
-
-.cabeçalho-link a {
-    color: #000;
-    font-size: 13px;
-   
-       
-}
-
-.cabeçalho-link a:hover {
-    color: #d659a2c9;
-    transition: 0.3s all;   
-  
-
+    width: 100%;
+    padding-top: 1rem;   
 }
 
 .logo {
@@ -69,11 +44,40 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 13px;
+    font-size: 16px;
     cursor: pointer;
-    
+    transition: all 0.5s ease-in-out;
+}
+
+.logo:hover {
+    background: #d659a2c9;
+    border: 1px solid #ffffff;
+    color: #ffffff;
 
 }
+
+.cabeçalho-link {
+    display: flex;
+    gap: 5px;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+
+.cabeçalho-link a {
+    color: #000;
+    font-size: 18px;
+   
+       
+}
+
+.cabeçalho-link a:hover {
+    color: #d659a2c9;
+    transition: 0.5s all ease-in-out;   
+  
+
+}
+
 
 button {
     color: #d659a2c9;
@@ -81,8 +85,9 @@ button {
     border: solid 1px #d659a2c9;
     padding: 5px;
     border-radius: 15px;
-    font-size: 13px;
+    font-size: 16px;
     width: 150px;
+    transition: all 0.5s ease-in-out;
     cursor: pointer;
     
 }
@@ -90,48 +95,10 @@ button {
 button:hover {
     background-color: #d659a2c9;
     color: #ffffff;
-    transition: 0.5s;
     
 }
 
-.container-text {
-    padding: 150px 0 0 250px;
-}
-
-
-.text h3 {
-    color: #000;
-    font-size: 15px;
-    
-}
-
-.text h1 {
-    color: #000;
-    margin-top: 10px
-    
-}
-
-.text span {
-    color: #d659a2c9 ;
-}
-
-.text p {
-    color: #000;
-    font-size: 13px;
-    font-weight: 400;
-    margin-top: 10px;
-}
-
-.redes-sociais a {
-    color: #d659a2c9;
-    padding: 15px;
-    margin-top: 5px;
-
-}
-
-.btn {
-    margin-top: 10px;
-}
+/* CONFIGURAÇÕES SUBMENU / DROPDOWN */
 
 .dp-menu ul {
     list-style-type: none;
@@ -148,34 +115,82 @@ button:hover {
     text-decoration: none;
     padding: 10px;
     display: inline-block;
-    transition: .3s;
+    transition:all .5s ease-in-out;
    
 }
-
-
-/*Sub Menu*/
 
 .dp-menu ul ul {
     display: none;
     left: 0;
     position: absolute;
-    transition: .3s;
-    text-align: center;
+    transition: all .5s ease-in-out;
 
 }
 
 .dp-menu ul li:hover ul {
-    display: block;
-   
+    display: block;   
 }
 
 .dp-menu ul ul {
-    width: 150px;
+    width: 125px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 6px rgb(0, 0, 0, 0.5);
 }
 
 .dp-menu ul ul li{
-    display: inline;
+    display: block;
+    text-align: left;
     
 }
 
+
+/* CONFIGURAÇÕES DO MAIN */
+.container-text {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.text h3 {
+    color: #000;
+    font-size: 22px;
+    
+}
+
+.text h1 {
+    color: #000;
+    margin-top: 10px;
+    font-size: 40px;
+    
+}
+
+.text span {
+    color: #d659a2c9 ;
+}
+
+.text p {
+    color: #000;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.redes-sociais a i{
+    color: #d659a2c9;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.btn-about {
+    margin-top: 30px;
+}
+
+
+.edi-image{
+    width: 350px;
+}
 
