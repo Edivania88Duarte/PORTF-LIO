@@ -1,4 +1,4 @@
-# PORTFLIO <br>
+# PORTFOLIO <br>
 
 <h1>Bem-vindo(a) ao início do meu portfólio profissonal! 🗃️♡</h1>
 <br>
