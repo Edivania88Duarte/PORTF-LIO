@@ -1,6 +1,6 @@
-# PORTFOLIO <br>
+# PORTFOLIO ♡ <br>
 
-<h1>Bem-vindo(a) ao início do meu portfólio profissonal! 🗃️♡</h1>
+<h1>Bem-vindo(a) ao início do meu portfólio profissonal! 🗃️</h1>
 <br>
 <h2>Iniciei esse projetinho com muito amor para divulgar meu trabalho através da entrega dos meus projetos, mostrando feedbacks de clientes, meios de contato e redes socais e dividindo um pouquinho de quem eu sou na seção "Sobre Mim" ✍️😄</h2>
 <br>
