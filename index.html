@@ -12,57 +12,87 @@
 
 <body>
 
-        <header>
-            <div class="logo">
-                <i class="fa-solid fa-e"></i>
-            </div>
-            <div class="cabeçalho-link">
-                <nav class="dp-menu">
-                    <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Habilidades</a>
-                    <ul>
-                        <li><a href="#">HTML</a></li>
-                        <li><a href="#">CSS</a></li>
-                        <li><a href="#">JavaScript</a></li>
-                        <li><a href="#">React</a></li>
-                        <li><a href="#">Node.js</a></li>
-                    </ul>
-                </li>
-                   
-                <li><a href="#">Projetos</a>
-                    <ul>
-                        <li><a href="#">We Care</a></li>
-                        <li><a href="#">Easy Shopping</a></li>
-                        <li><a href="#">Convert Money</a></li>
-                        <li><a href="#">Dev Sorteio</a></li>
-                        <li><a href="#">Cronômetro</a></li>
-                    </ul>
-                </li>
-                    
-                <li><a href="#">Feedbacks</a></li>
-                <button>Meu Contato</button>
-            </ul>
-            </nav>
-            </div>
-        </header>
-        <main class="container-text">
-            <div class="text">
-                <h3>Olá pessoal!</h3>
-                <h1>Eu sou a <span>Edivania Duarte</span></h1>
-                <p>Desenvolvedora Front-End apaixonada por 
-                    <br>criar experiências interativas e responsivas!</p>
-                    <div class="redes-sociais">
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <br>
-                        <button class="btn-about">Sobre Mim</button>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-e"></i>
+        </div>
+        <div class="cabeçalho-link">
+            <nav class="dp-menu">
+                <ul>
+                    <li><a href="#" id="inicio">Início</a></li>
+                    <!-- <li><a href="#">Tecnologias</a>
+                        <ul>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">React</a></li>
+                            <li><a href="#">Node.js</a></li>
+                        </ul> -->
+                    </li>
 
+                    <li><a href="#" id="projetos">Projetos</a>
+                        <ul>
+                            <li><a href="#">Code Burguer</a></li>
+                            <li><a href="#">Super Mário</a></li>
+                            <li><a href="#">Convert Money</a></li>
+                            <li><a href="#">Dev Sorteio</a></li>
+                            <li><a href="#">Cronômetro</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" id="curriculo">Currículo</a></li>
+                    <button id="meuContato">Meu Contato</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container-text">
+        <div class="text">
+            <h3>Olá pessoal!</h3>
+            <h1>Eu sou a <span>Edivania Duarte</span></h1>
+            <p>Desenvolvedora Front-End apaixonada por
+                <br>criar experiências interativas e responsivas!
+            </p>
+            <div class="redes-sociais">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <br>
+
+                <!-- <button class="btnAbout" id="openModal">Sobre Mim</button>
+
+                        <div id="modal-content"></div>
+                        <div id="modal">
+                            <div class="modal-header"></div>                      
+                            <span id="fecharModal" class="fechar">&times;</span>
+                        </div>
+
+                        <div class="modal-body">
+                        <p>
+                            Movida a desafios e a gerar conexões positivas, curiosa e determinada a executar o melhor, procuro criar designs 
+                            e experiências incríveis e exclusivas na web. Atualmente possuo conhecimento nas teconologias HTML, CSS e JavaScript 
+                            e estou constantemente aprendendo e aprimorando minhas habilidades para fornecer soluções criativas, inovadoras e 
+                            eficientes para meus clientes.
+                        </p>
+                        </div> -->
+
+                <button id="meuBotao">Sobre Mim</button>
+
+                <div id="meuModal" class="modal">
+                    <div class="modal-conteudo">
+                        <span id="fecharModal" class="fechar">&times;</span>
+                        <p>Movida a desafios e a gerar conexões positivas, curiosa e determinada a executar o melhor, procuro criar designs 
+                            e experiências incríveis e exclusivas na web. Atualmente possuo conhecimento nas teconologias HTML, CSS e JavaScript 
+                            e estou constantemente aprendendo e aprimorando minhas habilidades para fornecer soluções criativas, inovadoras e 
+                            eficientes para meus clientes.</p>
                     </div>
+                </div>
             </div>
-            <img class="edi-image" src="./Assets/Ediii.jpeg" alt="foto de edi">
-        </main>
+        </div>
+        <img class="edi-image" src="./Assets/Ediii.jpeg" alt="foto de edi">
+    </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
